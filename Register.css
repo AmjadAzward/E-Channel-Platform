@@ -1,0 +1,357 @@
+/* Overall body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri', sans-serif;
+}
+
+/* Navbar styles */
+
+
+
+.navbar-container{
+    margin-right: 0px;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* Dark blue background */
+    color: white;
+    padding: 10px 20px;
+    position: fixed; /* Fix the navbar at the top */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.navbar-left h1 {
+    margin: 0;
+}
+
+.navbar-right a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-right a:hover {
+    text-decoration: underline;
+}
+
+/* Adjust the content below the navbar */
+.register-page {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    margin-top: 30px; /* To give space below the navbar */
+    position: fixed;
+    margin-left: 20px;
+    width: 1400px;
+}
+
+/* [rest of your existing styles] */
+
+
+.register-container {
+    display: flex;
+    width: 80%;
+    /* Adjust container width to make it more spacious */
+    max-width: 1200px;
+    /* Ensure the max-width is not too wide */
+    border-radius: 8px;
+    height: 550px;
+    background: linear-gradient(to right, #1e40af, #3b82f6);
+    margin-left: 130px;
+
+
+}
+
+.left-section {
+    flex: 1;
+    /* Takes up 50% of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    flex-direction: column;
+    margin-right: 10px !important ;
+}
+
+.left-section h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: white;
+}
+
+.right-section {
+    flex: 2;
+    /* Takes up 2/3 of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.Reg{
+    font-family: 'Calibri', sans-serif !important;
+
+}
+
+
+.register-form {
+    width: 680px;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+    background-color: white;
+    height: 480px;
+    margin-right: 40px;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: linear-gradient(to bottom, #ffdddd, #ffffff);
+}
+
+.form-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: white;
+    height: 370px;
+}
+
+.form-column {
+    flex: 1;
+
+}
+
+.error {
+    color: white !important;
+    /* Default to white (invisible) */
+    font-size: 12px;
+    transition: color 0s ease-in-out;
+    /* Smooth transition */
+}
+
+/* When an error is detected, make it red */
+.error.has-error {
+    color: red !important;
+}
+
+
+
+.input-group label {
+    color: #333;
+    margin-bottom: 5px;
+    color: #2b537e;
+    display: block;
+    font-family: 'Calibri', sans-serif;
+
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 10px !important;
+    /* Rounded border */
+    border-color: rgb(77, 98, 218);
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+link {
+    font-family: 'Calibri', sans-serif !important;
+    font-size: 8px !important;
+
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 8px;
+    background-color: #2c4a77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Calibri', sans-serif;
+    /* Ensure Calibri is applied */
+    border-radius: 10px !important;
+    /* Rounded border */
+
+}
+
+.submit-btn:hover {
+    background-color: #0c2632 !important;
+}
+
+
+input::placeholder,
+select::placeholder {
+    font-size: 14px;
+    /* Adjust size */
+    color: #8691a0;
+    /* Light gray for subtle effect */
+    font-family: 'Calibri', sans-serif;
+    /* Ensure Calibri is applied */
+}
+
+.submit-btn:active {
+    background-color: #0c2632 !important;
+}
+
+.login-link {
+    text-align: center;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: white;
+    font-size: 14px ;
+
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+select {
+    font-size: 16px !important;
+    font-family: 'Calibri', sans-serif !important;
+}
+
+select option:disabled {
+    color: #9ca3af !important;
+    /* Light gray */
+    font-style: italic !important;
+    /* Optional: Italicize */
+}
+
+
+.form-column .input-group label {
+    margin-top: 0.5px !important;
+}
+
+p {
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+
+h2 {
+    font-family: 'Calibri', sans-serif;
+    margin-left: 50px;
+    text-align: left;
+    margin-bottom: 40px !important;
+
+}
+
+
+
+.navbar-container .login-btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.navbar-container .login-btn:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.nav-btn1 {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    transition: all 0.3s ease;
+    margin-right: 15px !important;
+}
+
+.nav-btn2 {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+
+    transition: all 0.3s ease;
+}
+.nav-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.nav-btn:active {
+    background-color: #00408d;
+    border-color: #00408d;
+}
+
+.navbar-links{
+    margin-top: 17px;
+    margin-right: 102px;
+    gap: 15px !important;
+
+}
+
+input{
+    pointer-events:auto !important ;
+    z-index: 1001;
+    border-color: rgb(77, 98, 218) !important;
+
+}

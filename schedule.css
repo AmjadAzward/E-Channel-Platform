@@ -1,0 +1,148 @@
+/* General Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.bg-blue-500 {
+    background-color: #3490dc;
+    color: white;
+  }
+  
+  button.bg-blue-500:hover {
+    background-color: #2779bd;
+  }
+  
+  button.bg-gray-500 {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  button.bg-gray-500:hover {
+    background-color: #565e64;
+  }
+  
+
+  button:focus {
+    outline: none;
+  }
+  
+  /* Form Styles */
+  label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  select, input[type="date"], input[type="time"] {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  select:focus, input[type="date"]:focus, input[type="time"]:focus {
+    border-color: #3490dc;
+    outline: none;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Filter Section Styles */
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .filter-section select {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .filter-section select:focus {
+    border-color: #3490dc;
+    outline: none;
+  }
+  
+
+
+  /* Button Styles for Edit and Delete */
+button.bg-yellow-500 {
+    background-color: #fbbf24;
+    color: white;
+  }
+  
+  button.bg-yellow-500:hover {
+    background-color: #d97706;
+  }
+  
+  button.bg-red-500 {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  button.bg-red-500:hover {
+    background-color: #dc2626;
+  }
+  
