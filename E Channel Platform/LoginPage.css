@@ -1,0 +1,186 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri', sans-serif !important;
+}
+
+/* Main Container */
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Transparent Navbar Over Image */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: transparent; /* Transparent Effect */
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+    margin-top: -300px;
+    
+}
+
+.search-bar {
+    padding: 10px 15px;
+    border: 1px solid rgb(80, 73, 73) !important;
+    border-radius: 30px;
+    width: 400px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    background-color: #e8dfdf3a !important;
+    margin-right: -650px;
+
+}
+
+.search-bar:focus {
+    border-color: #007BFF !important;
+}
+
+.search-bar::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-container .login-btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.navbar-container .login-btn:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+    margin-right: -60px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.nav-btn:active {
+    background-color: #00408d;
+    border-color: #00408d;
+}
+
+
+/* Top Section: Background Image Slider */
+.top-section {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    height: auto;
+    min-height: 400px;
+}
+
+/* Quote Container */
+.quote-container {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: white;
+    background:transparent;
+    padding: 10px 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.quote-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Arrows for Manual Navigation */
+.arrow {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 20px;
+}
+
+.right-arrow {
+    right: 20px;
+}
+
+/* Bottom Section: Static Content */
+.bottom-section {
+    flex: 1;
+    width: 100%;
+    background: linear-gradient(to right, #252e49, #295aaa);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Calibri', sans-serif !important;
+
+    
+}
+
+.bottom-section h2 {
+    font-size: 28px;
+    color: #383535;
+    font-weight: 400;
+}
+
+.bottom-section p {
+    font-size: 18px;
+    color: white;
+}
+
+.abc{
+    color: white;
+    font-size: 30px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+
+}

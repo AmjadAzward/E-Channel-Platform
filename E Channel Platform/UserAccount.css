@@ -1,0 +1,84 @@
+.edit-btn5 {
+    width: 120px;
+    padding: 8px;
+    background-color: #2c4a77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Calibri', sans-serif;
+    /* Ensure Calibri is applied */
+    border-radius: 10px !important;
+    /* Rounded border */
+
+    margin-left: 350px;
+}
+
+.edit-btn5:hover {
+    background-color: #0c2632 !important;
+}
+
+.edit-btn5:active {
+    background-color: #0c2632 !important;
+}
+
+
+.cancel-btn5 {
+    width: 120px;
+    padding: 8px;
+    background-color: #2c4a77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Calibri', sans-serif;
+    /* Ensure Calibri is applied */
+    border-radius: 10px !important;
+    /* Rounded border */
+    margin-left: 20px;
+
+}
+
+.cancel-btn5:hover {
+    background-color: #0c2632 !important;
+}
+
+.cancel-btn5:active {
+    background-color: #0c2632 !important;
+}
+
+
+.navbar4{
+    margin-right: 1570px !important;
+}
+
+.navbar-container5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* Dark blue background */
+    color: white;
+    padding: 10px 20px;
+    position: fixed; /* Fix the navbar at the top */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.check{
+    margin-top: 14px;
+    margin-right: 6px;
+}
+
+.input-group7 {
+    display: flex;
+    align-items: center;
+    gap: 2px; /* Adjust spacing between checkbox and label */
+    margin-top: 30px;
+}
+
+.txt{
+    margin-top: 16px !important;
+}
