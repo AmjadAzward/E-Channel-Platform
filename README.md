@@ -2,10 +2,9 @@
 
 The E-Channel Platform is a web-based appointment booking system that streamlines and digitizes the healthcare consultation process. Built with Spring Boot (Java) for the backend and React.js for the frontend, the platform enables patients to book, reschedule, or cancel medical appointments with available doctors. It connects patients, doctors, and administrative staff through a seamless digital workflow.
 
+![E-Channel Screenshot](https://raw.githubusercontent.com/AmjadAzward/E-Channel-Platform/main/Images/IMG-20250619-WA0031.jpg)
 
 ![E-Channel Screenshot](https://raw.githubusercontent.com/AmjadAzward/E-Channel-Platform/main/Images/IMG-20250619-WA0030.jpg)
-
-![E-Channel Screenshot](https://raw.githubusercontent.com/AmjadAzward/E-Channel-Platform/main/Images/IMG-20250619-WA0031.jpg)
 
 ![E-Channel Screenshot](https://raw.githubusercontent.com/AmjadAzward/E-Channel-Platform/main/Images/IMG-20250619-WA0032.jpg)
 
